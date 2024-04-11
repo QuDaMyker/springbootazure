@@ -1,0 +1,15 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /healthcare
+spring:
+  datasource:
+    url: "jdbc:mysql://localhost:3306/healthcare"
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+jwt:
+  signerKey: "ljPtwlatbPg+0+r/wA1He8TNgoVGMqGDdHHvpaglc2AD/fsSCNxVU8UvPEg+5AI7"
